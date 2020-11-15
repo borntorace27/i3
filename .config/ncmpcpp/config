@@ -1,0 +1,76 @@
+% egrep -v '^#' "~/.config/ncmpcpp/config"
+mpd_music_dir = "/home/${USER}/Music/"
+
+mpd_host = "127.0.0.1"
+mpd_port = "6600"
+mouse_list_scroll_whole_page = "yes"
+lines_scrolled = "1"
+
+execute_on_song_change = "~/.config/ncmpcpp/dark.sh"
+song_list_format = "                        {{%a - %t}|{%f}}{$R%l} "
+
+song_status_format = "$b$7♫ $2%a $5⟫$5⟫ $2%t $5⟫$5⟫ $2%b "
+#song_status_format = "$b$7♫ $2%a $5⇔$3⇔ $7%t $5⇔$3⇔ $5%b "
+song_window_title_format = " {%a} - {%t}"
+
+visualizer_in_stereo = "yes"
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_output_name = "my_fifo"
+visualizer_sync_interval = "10"
+visualizer_type = "spectrum"
+#visualizer_look = "▋▋"
+#visualizer_look = "▒░"
+visualizer_look = "░▒"
+#visualizer_look = "◈░"
+#visualizer_look = ●┃
+#visualizer_look = "▋░"
+#visualizer_look = "☰⛆"
+#visualizer_look = "⬓⬒"
+
+#alternative_header_first_line_format = "$0$aqqu$/a$9 {%t}|{%f} $0$atqq$/a$9$/b"
+
+#song_list_format = "{$3%a - $9}{$0%t$9}|{$0%f$9}$R{$3│%l$9}"
+#song_status_format ="{$8%a - $9}{$8%t$9}|{$8%f$9}"
+
+#autocenter_mode = "yes"
+#header_visibility = "no"
+
+#progressbar_look = "≈► "
+#progressbar_look = "○•·"
+#progressbar_look = "‒⎜"
+statusbar_visibility = "yes"
+jump_to_now_playing_song_at_start = "no"
+# color definitions
+colors_enabled = "yes"
+##header_window_color = "blue"
+##volume_color = "blue"
+##state_line_color = "green"
+##state_flags_color = "red"
+#main_window_color = "grey"
+color1 = "green"
+color2 = "yellow"
+#main_window_highlight_color = "white"
+progressbar_color = "green"
+##statusbar_color = "black"
+##alternative_ui_separator_color = "green"
+
+selected_item_prefix = "$6"
+selected_item_suffix = "$9"
+playlist_display_mode = "classic" # (classic/columns)
+browser_display_mode = "classic" #(classic/columns)
+autocenter_mode = "yes"
+#progressbar_look = " ━━"
+progressbar_look = "─╼ "
+#progressbar_look = "◾◾◽"
+progressbar_elapsed_color = "red"
+user_interface = "classic" #(classic/alternative)
+#media_library_left_column = "a" #(possible values: a,y,g,c,p, legend above)
+header_visibility = "no"
+#statusbar_visibility = "yes"
+titles_visibility = "yes"
+#header_text_scrolling = "yes"
+#fancy_scrolling = "yes"
+#cyclic_scrolling = "no"
+display_volume_level = "yes"
+#display_bitrate = "yes"
+#display_remaining_time = "no"
